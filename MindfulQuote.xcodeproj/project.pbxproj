@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F755B20E28D9FF3100D3C8CF /* QuoteDisplayCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B20D28D9FF3100D3C8CF /* QuoteDisplayCoordinator.swift */; };
+		F755B21128DA427D00D3C8CF /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B21028DA427D00D3C8CF /* MockService.swift */; };
+		F755B21428DA434600D3C8CF /* DataRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B21328DA434600D3C8CF /* DataRequestTests.swift */; };
+		F755B21628DA561700D3C8CF /* QuoteDisplayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B21528DA561700D3C8CF /* QuoteDisplayService.swift */; };
 		F7C0146A28D9C5A800AA9B96 /* Datawrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C0146928D9C5A800AA9B96 /* Datawrapper.swift */; };
 		F7C0147328D9F98600AA9B96 /* QuoteDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C0147128D9F98600AA9B96 /* QuoteDisplayViewController.xib */; };
 		F7C0147428D9F98600AA9B96 /* QuoteDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C0147228D9F98600AA9B96 /* QuoteDisplayViewController.swift */; };
@@ -15,7 +18,7 @@
 		F7F93A3528D9A78D00C0C32B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A3428D9A78D00C0C32B /* SceneDelegate.swift */; };
 		F7F93A3C28D9A78F00C0C32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F93A3B28D9A78F00C0C32B /* Assets.xcassets */; };
 		F7F93A3F28D9A78F00C0C32B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F93A3D28D9A78F00C0C32B /* LaunchScreen.storyboard */; };
-		F7F93A4A28D9A79000C0C32B /* MindfulQuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A4928D9A79000C0C32B /* MindfulQuoteTests.swift */; };
+		F7F93A4A28D9A79000C0C32B /* MindfulQuoteViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A4928D9A79000C0C32B /* MindfulQuoteViewModelTests.swift */; };
 		F7F93A5428D9A79000C0C32B /* MindfulQuoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A5328D9A79000C0C32B /* MindfulQuoteUITests.swift */; };
 		F7F93A5628D9A79000C0C32B /* MindfulQuoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A5528D9A79000C0C32B /* MindfulQuoteUITestsLaunchTests.swift */; };
 		F7F93A6528D9A7C500C0C32B /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A6228D9A7C500C0C32B /* DataRequest.swift */; };
@@ -46,6 +49,9 @@
 
 /* Begin PBXFileReference section */
 		F755B20D28D9FF3100D3C8CF /* QuoteDisplayCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDisplayCoordinator.swift; sourceTree = "<group>"; };
+		F755B21028DA427D00D3C8CF /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		F755B21328DA434600D3C8CF /* DataRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequestTests.swift; sourceTree = "<group>"; };
+		F755B21528DA561700D3C8CF /* QuoteDisplayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDisplayService.swift; sourceTree = "<group>"; };
 		F7C0146928D9C5A800AA9B96 /* Datawrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datawrapper.swift; sourceTree = "<group>"; };
 		F7C0147128D9F98600AA9B96 /* QuoteDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuoteDisplayViewController.xib; sourceTree = "<group>"; };
 		F7C0147228D9F98600AA9B96 /* QuoteDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteDisplayViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +62,7 @@
 		F7F93A3E28D9A78F00C0C32B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7F93A4028D9A78F00C0C32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7F93A4528D9A79000C0C32B /* MindfulQuoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindfulQuoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7F93A4928D9A79000C0C32B /* MindfulQuoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulQuoteTests.swift; sourceTree = "<group>"; };
+		F7F93A4928D9A79000C0C32B /* MindfulQuoteViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulQuoteViewModelTests.swift; sourceTree = "<group>"; };
 		F7F93A4F28D9A79000C0C32B /* MindfulQuoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindfulQuoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F93A5328D9A79000C0C32B /* MindfulQuoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulQuoteUITests.swift; sourceTree = "<group>"; };
 		F7F93A5528D9A79000C0C32B /* MindfulQuoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulQuoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -109,6 +115,25 @@
 				F7F93A7A28D9BB6400C0C32B /* Coordinator.swift */,
 			);
 			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F755B21228DA428300D3C8CF /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				F755B21028DA427D00D3C8CF /* MockService.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		F755B21728DA68FA00D3C8CF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F7F93A6428D9A7C500C0C32B /* Endpoint.swift */,
+				F7F93A6228D9A7C500C0C32B /* DataRequest.swift */,
+				F7C0146928D9C5A800AA9B96 /* Datawrapper.swift */,
+				F7F93A6328D9A7C500C0C32B /* RequestMethod.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		F7C0146F28D9EFB700AA9B96 /* View */ = {
@@ -168,7 +193,9 @@
 		F7F93A4828D9A79000C0C32B /* MindfulQuoteTests */ = {
 			isa = PBXGroup;
 			children = (
-				F7F93A4928D9A79000C0C32B /* MindfulQuoteTests.swift */,
+				F755B21228DA428300D3C8CF /* Mocks */,
+				F7F93A4928D9A79000C0C32B /* MindfulQuoteViewModelTests.swift */,
+				F755B21328DA434600D3C8CF /* DataRequestTests.swift */,
 			);
 			path = MindfulQuoteTests;
 			sourceTree = "<group>";
@@ -185,6 +212,7 @@
 		F7F93A7028D9AD4400C0C32B /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				F755B21728DA68FA00D3C8CF /* Base */,
 				F7F93A7228D9AD9F00C0C32B /* Service */,
 			);
 			path = Networking;
@@ -193,10 +221,7 @@
 		F7F93A7228D9AD9F00C0C32B /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				F7F93A6428D9A7C500C0C32B /* Endpoint.swift */,
-				F7F93A6228D9A7C500C0C32B /* DataRequest.swift */,
-				F7F93A6328D9A7C500C0C32B /* RequestMethod.swift */,
-				F7C0146928D9C5A800AA9B96 /* Datawrapper.swift */,
+				F755B21528DA561700D3C8CF /* QuoteDisplayService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -369,6 +394,7 @@
 				F7F93A6B28D9AA2600C0C32B /* Quote.swift in Sources */,
 				F7F93A6728D9A7C500C0C32B /* Endpoint.swift in Sources */,
 				F7F93A3528D9A78D00C0C32B /* SceneDelegate.swift in Sources */,
+				F755B21628DA561700D3C8CF /* QuoteDisplayService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +402,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7F93A4A28D9A79000C0C32B /* MindfulQuoteTests.swift in Sources */,
+				F755B21428DA434600D3C8CF /* DataRequestTests.swift in Sources */,
+				F7F93A4A28D9A79000C0C32B /* MindfulQuoteViewModelTests.swift in Sources */,
+				F755B21128DA427D00D3C8CF /* MockService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
