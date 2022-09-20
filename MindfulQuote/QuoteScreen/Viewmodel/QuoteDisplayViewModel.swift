@@ -31,6 +31,10 @@ final class QuoteDisplayViewModel: QuoteDisplayViewModelInput {
         }
     }
     
+    var quoteText: String {
+        return quote?.text ?? ""
+    }
+    
     // MARK: - Initialization
     let dataRequest: DataRequestProtocol
     init(dataRequest: DataRequestProtocol) {
