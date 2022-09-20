@@ -12,7 +12,7 @@ class AppCoordinator: Coordinator {
     private var window: UIWindow?
     var dataStore: DataRequest
 
-    init(window: UIWindow, dataStore: DataRequest = DataRequest()) {
+    init(window: UIWindow, dataStore: QuoteDisplayService = QuoteDisplayService()) {
         self.window = window
         self.dataStore = dataStore
     }
@@ -21,7 +21,7 @@ class AppCoordinator: Coordinator {
 
     @discardableResult
     func start() -> UIViewController {
-        listCoordinator = QuoteDisplayCoordinator(service: dataStore)
+        listCoordinator = QuoteDisplayCoordinator(service: QuoteDisplayService())
         let mainVC = listCoordinator.start()
         window?.rootViewController = mainVC
         window?.makeKeyAndVisible()
