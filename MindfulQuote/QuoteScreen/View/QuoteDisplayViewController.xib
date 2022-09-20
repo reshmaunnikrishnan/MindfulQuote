@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuoteDisplayViewController" customModule="MindfulQuote" customModuleProvider="target">
+            <connections>
+                <outlet property="languageButton" destination="dul-rf-NXC" id="J6d-M1-7bR"/>
+                <outlet property="languagePickerView" destination="ksm-M0-gs5" id="O2j-5W-b9z"/>
+                <outlet property="quoteText" destination="hSa-Tm-XJb" id="VSE-Ig-FtZ"/>
+                <outlet property="refreshQuoteButton" destination="wtT-dS-MCt" id="mtr-Fh-3I3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ksm-M0-gs5">
+                    <rect key="frame" x="0.0" y="680" width="414" height="216"/>
+                </pickerView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wtT-dS-MCt">
+                    <rect key="frame" x="148.5" y="428.5" width="117" height="31"/>
+                    <color key="backgroundColor" systemColor="systemBrownColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="WpN-43-Jeo"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Refresh Quote"/>
+                    <connections>
+                        <action selector="refreshButtonTapped:" destination="-1" eventType="touchUpInside" id="FDz-6w-keH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dul-rf-NXC">
+                    <rect key="frame" x="55.5" y="75" width="303" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="303" id="DJC-py-V5t"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Select"/>
+                    <connections>
+                        <action selector="selectlanguageButtonTapped:" destination="-1" eventType="touchUpInside" id="PxM-We-828"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSa-Tm-XJb">
+                    <rect key="frame" x="40" y="252" width="335" height="57"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="57" id="elm-3E-g9x"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="hSa-Tm-XJb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="F91-vh-bhc"/>
+                <constraint firstItem="wtT-dS-MCt" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="N1u-JZ-1Nv"/>
+                <constraint firstItem="ksm-M0-gs5" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="PnF-2F-TyX"/>
+                <constraint firstItem="ksm-M0-gs5" firstAttribute="top" relation="lessThanOrEqual" secondItem="wtT-dS-MCt" secondAttribute="bottom" constant="220.5" identifier="10" id="Pnf-pm-hhZ"/>
+                <constraint firstAttribute="bottom" secondItem="ksm-M0-gs5" secondAttribute="bottom" id="Tzy-ko-Qvc"/>
+                <constraint firstItem="wtT-dS-MCt" firstAttribute="top" secondItem="hSa-Tm-XJb" secondAttribute="bottom" constant="119.5" id="VFa-N4-xKE"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hSa-Tm-XJb" secondAttribute="trailing" constant="39" id="XuD-Oz-UXF"/>
+                <constraint firstItem="ksm-M0-gs5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="jZX-dv-gy3"/>
+                <constraint firstItem="dul-rf-NXC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="31" id="vBg-Pd-dAA"/>
+                <constraint firstItem="hSa-Tm-XJb" firstAttribute="top" relation="lessThanOrEqual" secondItem="dul-rf-NXC" secondAttribute="bottom" constant="146" id="wGQ-yc-Vsb"/>
+                <constraint firstItem="dul-rf-NXC" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="z2o-kq-m3S"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="89.732142857142847"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

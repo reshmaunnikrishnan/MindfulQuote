@@ -13,6 +13,7 @@ protocol QuoteDisplayViewModelInput {
     var showErrorAlert: (() -> Void)? { get set }
     var quote: Quote? { get set }
     var error: Error? { get set }
+    var quoteText: String { get set }
 }
 
 final class QuoteDisplayViewModel: QuoteDisplayViewModelInput {
