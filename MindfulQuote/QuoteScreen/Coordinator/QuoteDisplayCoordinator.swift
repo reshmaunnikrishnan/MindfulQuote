@@ -10,14 +10,14 @@ import UIKit
 
 class QuoteDisplayCoordinator: Coordinator {
     var rootViewController: UINavigationController!
-    var service: DataRequestProtocol
+    var service: QuoteDisplayServicable
 
-    init(service: DataRequestProtocol) {
+    init(service: QuoteDisplayServicable) {
         self.service = service
     }
 
     func start() -> UIViewController {
-        let viewModel = QuoteDisplayViewModel(dataRequest: service)
+        let viewModel = QuoteDisplayViewModel(service: service)
         let quoteVC = QuoteDisplayViewController(viewModel: viewModel)
         rootViewController = UINavigationController(rootViewController: quoteVC)
         return rootViewController

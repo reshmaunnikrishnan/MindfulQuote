@@ -13,6 +13,7 @@ enum Language: String, CaseIterable {
 
 final class QuoteDisplayViewController: UIViewController {
 
+    // MARK: - Properties
     @IBOutlet weak var languageButton: UIButton!
     @IBOutlet weak var quoteText: UILabel!
     @IBOutlet weak var refreshQuoteButton: UIButton!
@@ -21,6 +22,7 @@ final class QuoteDisplayViewController: UIViewController {
     var language: Language = Language.de
     let viewModel: QuoteDisplayViewModelInput
 
+    // MARK: - Initializer
     init(viewModel: QuoteDisplayViewModelInput) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
@@ -40,6 +42,7 @@ final class QuoteDisplayViewController: UIViewController {
         loadQuote()
     }
     
+    // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         self.languagePickerView.delegate = self
@@ -48,6 +51,7 @@ final class QuoteDisplayViewController: UIViewController {
         setupUI()
     }
     
+    // MARK: - Private Methods
     fileprivate func loadQuote() {
         viewModel.fetchQuote(lang: language.rawValue) { [weak self] in
             guard let self = self else {
@@ -65,7 +69,7 @@ final class QuoteDisplayViewController: UIViewController {
     }
 }
 
-
+// MARK: - UIPickerViewDelegate & UIPickerViewDataSource
 extension QuoteDisplayViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
