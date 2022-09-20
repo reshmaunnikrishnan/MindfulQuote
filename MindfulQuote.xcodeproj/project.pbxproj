@@ -52,6 +52,7 @@
 		F755B21028DA427D00D3C8CF /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
 		F755B21328DA434600D3C8CF /* DataRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequestTests.swift; sourceTree = "<group>"; };
 		F755B21528DA561700D3C8CF /* QuoteDisplayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDisplayService.swift; sourceTree = "<group>"; };
+		F755B21828DA6DDC00D3C8CF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F7C0146928D9C5A800AA9B96 /* Datawrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datawrapper.swift; sourceTree = "<group>"; };
 		F7C0147128D9F98600AA9B96 /* QuoteDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuoteDisplayViewController.xib; sourceTree = "<group>"; };
 		F7C0147228D9F98600AA9B96 /* QuoteDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteDisplayViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +159,7 @@
 		F7F93A2628D9A78D00C0C32B = {
 			isa = PBXGroup;
 			children = (
+				F755B21828DA6DDC00D3C8CF /* README.md */,
 				F7F93A3128D9A78D00C0C32B /* MindfulQuote */,
 				F7F93A4828D9A79000C0C32B /* MindfulQuoteTests */,
 				F7F93A5228D9A79000C0C32B /* MindfulQuoteUITests */,
