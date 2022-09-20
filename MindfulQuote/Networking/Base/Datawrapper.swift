@@ -12,7 +12,6 @@ public struct DataWrapper<T: Decodable>: Decodable {
     enum CodingKeys: String, CodingKey {
         case data = "data"
     }
-
     public let data: T
 }
 

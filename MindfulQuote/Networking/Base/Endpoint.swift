@@ -7,14 +7,13 @@
 
 import Foundation
 
-
 struct Endpoint {
     let path: String
     let queryItems: [URLQueryItem]?
 }
 
 extension Endpoint {
-    static func fetchSearchGiphy(with lang : String) -> Endpoint {
+    static func fetchQuote(with lang : String) -> Endpoint {
         return Endpoint(path: "/v2/mindful",
                         queryItems: [
                             URLQueryItem(name: "lang", value: lang),
