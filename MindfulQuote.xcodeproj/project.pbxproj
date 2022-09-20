@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F755B20E28D9FF3100D3C8CF /* QuoteDisplayCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B20D28D9FF3100D3C8CF /* QuoteDisplayCoordinator.swift */; };
+		F7C0146A28D9C5A800AA9B96 /* Datawrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C0146928D9C5A800AA9B96 /* Datawrapper.swift */; };
+		F7C0147328D9F98600AA9B96 /* QuoteDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C0147128D9F98600AA9B96 /* QuoteDisplayViewController.xib */; };
+		F7C0147428D9F98600AA9B96 /* QuoteDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C0147228D9F98600AA9B96 /* QuoteDisplayViewController.swift */; };
 		F7F93A3328D9A78D00C0C32B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A3228D9A78D00C0C32B /* AppDelegate.swift */; };
 		F7F93A3528D9A78D00C0C32B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A3428D9A78D00C0C32B /* SceneDelegate.swift */; };
-		F7F93A3728D9A78D00C0C32B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A3628D9A78D00C0C32B /* ViewController.swift */; };
-		F7F93A3A28D9A78D00C0C32B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F93A3828D9A78D00C0C32B /* Main.storyboard */; };
 		F7F93A3C28D9A78F00C0C32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F93A3B28D9A78F00C0C32B /* Assets.xcassets */; };
 		F7F93A3F28D9A78F00C0C32B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F93A3D28D9A78F00C0C32B /* LaunchScreen.storyboard */; };
 		F7F93A4A28D9A79000C0C32B /* MindfulQuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A4928D9A79000C0C32B /* MindfulQuoteTests.swift */; };
 		F7F93A5428D9A79000C0C32B /* MindfulQuoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A5328D9A79000C0C32B /* MindfulQuoteUITests.swift */; };
 		F7F93A5628D9A79000C0C32B /* MindfulQuoteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A5528D9A79000C0C32B /* MindfulQuoteUITestsLaunchTests.swift */; };
+		F7F93A6528D9A7C500C0C32B /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A6228D9A7C500C0C32B /* DataRequest.swift */; };
+		F7F93A6628D9A7C500C0C32B /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A6328D9A7C500C0C32B /* RequestMethod.swift */; };
+		F7F93A6728D9A7C500C0C32B /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A6428D9A7C500C0C32B /* Endpoint.swift */; };
+		F7F93A6B28D9AA2600C0C32B /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A6A28D9AA2600C0C32B /* Quote.swift */; };
+		F7F93A7628D9AEF300C0C32B /* QuoteDisplayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A7528D9AEF300C0C32B /* QuoteDisplayViewModel.swift */; };
+		F7F93A7C28D9BB6400C0C32B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A7A28D9BB6400C0C32B /* Coordinator.swift */; };
+		F7F93A7D28D9BB6400C0C32B /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F93A7B28D9BB6400C0C32B /* AppCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F755B20D28D9FF3100D3C8CF /* QuoteDisplayCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDisplayCoordinator.swift; sourceTree = "<group>"; };
+		F7C0146928D9C5A800AA9B96 /* Datawrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datawrapper.swift; sourceTree = "<group>"; };
+		F7C0147128D9F98600AA9B96 /* QuoteDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuoteDisplayViewController.xib; sourceTree = "<group>"; };
+		F7C0147228D9F98600AA9B96 /* QuoteDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteDisplayViewController.swift; sourceTree = "<group>"; };
 		F7F93A2F28D9A78D00C0C32B /* MindfulQuote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulQuote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F93A3228D9A78D00C0C32B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7F93A3428D9A78D00C0C32B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F7F93A3628D9A78D00C0C32B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7F93A3928D9A78D00C0C32B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7F93A3B28D9A78F00C0C32B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7F93A3E28D9A78F00C0C32B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7F93A4028D9A78F00C0C32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +60,13 @@
 		F7F93A4F28D9A79000C0C32B /* MindfulQuoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindfulQuoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F93A5328D9A79000C0C32B /* MindfulQuoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulQuoteUITests.swift; sourceTree = "<group>"; };
 		F7F93A5528D9A79000C0C32B /* MindfulQuoteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulQuoteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7F93A6228D9A7C500C0C32B /* DataRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		F7F93A6328D9A7C500C0C32B /* RequestMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
+		F7F93A6428D9A7C500C0C32B /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		F7F93A6A28D9AA2600C0C32B /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		F7F93A7528D9AEF300C0C32B /* QuoteDisplayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDisplayViewModel.swift; sourceTree = "<group>"; };
+		F7F93A7A28D9BB6400C0C32B /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F7F93A7B28D9BB6400C0C32B /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +94,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F755B20C28D9FDC700D3C8CF /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F755B20D28D9FF3100D3C8CF /* QuoteDisplayCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F755B20F28DA010100D3C8CF /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				F7F93A7B28D9BB6400C0C32B /* AppCoordinator.swift */,
+				F7F93A7A28D9BB6400C0C32B /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		F7C0146F28D9EFB700AA9B96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7C0147228D9F98600AA9B96 /* QuoteDisplayViewController.swift */,
+				F7C0147128D9F98600AA9B96 /* QuoteDisplayViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7C0147028D9F8FE00AA9B96 /* QuoteScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F7C0146F28D9EFB700AA9B96 /* View */,
+				F755B20C28D9FDC700D3C8CF /* Coordinator */,
+				F7F93A7728D9B3F400C0C32B /* Viewmodel */,
+			);
+			path = QuoteScreen;
+			sourceTree = "<group>";
+		};
 		F7F93A2628D9A78D00C0C32B = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +153,11 @@
 		F7F93A3128D9A78D00C0C32B /* MindfulQuote */ = {
 			isa = PBXGroup;
 			children = (
-				F7F93A3228D9A78D00C0C32B /* AppDelegate.swift */,
-				F7F93A3428D9A78D00C0C32B /* SceneDelegate.swift */,
-				F7F93A3628D9A78D00C0C32B /* ViewController.swift */,
-				F7F93A3828D9A78D00C0C32B /* Main.storyboard */,
+				F755B20F28DA010100D3C8CF /* Coordinator */,
+				F7F93A7428D9ADBF00C0C32B /* App */,
+				F7F93A7028D9AD4400C0C32B /* Networking */,
+				F7F93A7328D9ADAE00C0C32B /* Model */,
+				F7C0147028D9F8FE00AA9B96 /* QuoteScreen */,
 				F7F93A3B28D9A78F00C0C32B /* Assets.xcassets */,
 				F7F93A3D28D9A78F00C0C32B /* LaunchScreen.storyboard */,
 				F7F93A4028D9A78F00C0C32B /* Info.plist */,
@@ -125,6 +180,50 @@
 				F7F93A5528D9A79000C0C32B /* MindfulQuoteUITestsLaunchTests.swift */,
 			);
 			path = MindfulQuoteUITests;
+			sourceTree = "<group>";
+		};
+		F7F93A7028D9AD4400C0C32B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				F7F93A7228D9AD9F00C0C32B /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		F7F93A7228D9AD9F00C0C32B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F7F93A6428D9A7C500C0C32B /* Endpoint.swift */,
+				F7F93A6228D9A7C500C0C32B /* DataRequest.swift */,
+				F7F93A6328D9A7C500C0C32B /* RequestMethod.swift */,
+				F7C0146928D9C5A800AA9B96 /* Datawrapper.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F7F93A7328D9ADAE00C0C32B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7F93A6A28D9AA2600C0C32B /* Quote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7F93A7428D9ADBF00C0C32B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F7F93A3428D9A78D00C0C32B /* SceneDelegate.swift */,
+				F7F93A3228D9A78D00C0C32B /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F7F93A7728D9B3F400C0C32B /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				F7F93A7528D9AEF300C0C32B /* QuoteDisplayViewModel.swift */,
+			);
+			path = Viewmodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +332,7 @@
 			files = (
 				F7F93A3F28D9A78F00C0C32B /* LaunchScreen.storyboard in Resources */,
 				F7F93A3C28D9A78F00C0C32B /* Assets.xcassets in Resources */,
-				F7F93A3A28D9A78D00C0C32B /* Main.storyboard in Resources */,
+				F7C0147328D9F98600AA9B96 /* QuoteDisplayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +357,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7F93A3728D9A78D00C0C32B /* ViewController.swift in Sources */,
+				F7C0147428D9F98600AA9B96 /* QuoteDisplayViewController.swift in Sources */,
+				F7F93A7D28D9BB6400C0C32B /* AppCoordinator.swift in Sources */,
 				F7F93A3328D9A78D00C0C32B /* AppDelegate.swift in Sources */,
+				F7F93A6528D9A7C500C0C32B /* DataRequest.swift in Sources */,
+				F7C0146A28D9C5A800AA9B96 /* Datawrapper.swift in Sources */,
+				F7F93A7628D9AEF300C0C32B /* QuoteDisplayViewModel.swift in Sources */,
+				F7F93A6628D9A7C500C0C32B /* RequestMethod.swift in Sources */,
+				F755B20E28D9FF3100D3C8CF /* QuoteDisplayCoordinator.swift in Sources */,
+				F7F93A7C28D9BB6400C0C32B /* Coordinator.swift in Sources */,
+				F7F93A6B28D9AA2600C0C32B /* Quote.swift in Sources */,
+				F7F93A6728D9A7C500C0C32B /* Endpoint.swift in Sources */,
 				F7F93A3528D9A78D00C0C32B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +405,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F7F93A3828D9A78D00C0C32B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7F93A3928D9A78D00C0C32B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7F93A3D28D9A78F00C0C32B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +542,7 @@
 				INFOPLIST_FILE = MindfulQuote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +570,7 @@
 				INFOPLIST_FILE = MindfulQuote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
