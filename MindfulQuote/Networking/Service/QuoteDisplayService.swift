@@ -13,9 +13,8 @@ protocol QuoteDisplayServicable {
 
 struct QuoteDisplayService: DataRequest, QuoteDisplayServicable {
  
-
     func fetchQuote(lang: String, completionHandler: @escaping (Quote?, RequestError?) -> Void ) {
-        var endpoint: Endpoint = Endpoint.fetchQuote(with: lang)
+        let endpoint: Endpoint = Endpoint.fetchQuote(with: lang)
         
         sendRequest(endPoint: endpoint, type: Quote.self) { result in
             switch result {
@@ -25,10 +24,7 @@ struct QuoteDisplayService: DataRequest, QuoteDisplayServicable {
                 completionHandler(nil, error)
             }
         }
-        
-        
     }
     
-
 }
 

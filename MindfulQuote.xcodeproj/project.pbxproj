@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F755B20E28D9FF3100D3C8CF /* QuoteDisplayCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B20D28D9FF3100D3C8CF /* QuoteDisplayCoordinator.swift */; };
 		F755B21128DA427D00D3C8CF /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B21028DA427D00D3C8CF /* MockService.swift */; };
-		F755B21428DA434600D3C8CF /* DataRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B21328DA434600D3C8CF /* DataRequestTests.swift */; };
 		F755B21628DA561700D3C8CF /* QuoteDisplayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755B21528DA561700D3C8CF /* QuoteDisplayService.swift */; };
 		F7C0146A28D9C5A800AA9B96 /* Datawrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C0146928D9C5A800AA9B96 /* Datawrapper.swift */; };
 		F7C0147328D9F98600AA9B96 /* QuoteDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C0147128D9F98600AA9B96 /* QuoteDisplayViewController.xib */; };
@@ -50,7 +49,6 @@
 /* Begin PBXFileReference section */
 		F755B20D28D9FF3100D3C8CF /* QuoteDisplayCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDisplayCoordinator.swift; sourceTree = "<group>"; };
 		F755B21028DA427D00D3C8CF /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
-		F755B21328DA434600D3C8CF /* DataRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequestTests.swift; sourceTree = "<group>"; };
 		F755B21528DA561700D3C8CF /* QuoteDisplayService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDisplayService.swift; sourceTree = "<group>"; };
 		F755B21828DA6DDC00D3C8CF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F7C0146928D9C5A800AA9B96 /* Datawrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datawrapper.swift; sourceTree = "<group>"; };
@@ -197,7 +195,6 @@
 			children = (
 				F755B21228DA428300D3C8CF /* Mocks */,
 				F7F93A4928D9A79000C0C32B /* MindfulQuoteViewModelTests.swift */,
-				F755B21328DA434600D3C8CF /* DataRequestTests.swift */,
 			);
 			path = MindfulQuoteTests;
 			sourceTree = "<group>";
@@ -404,7 +401,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F755B21428DA434600D3C8CF /* DataRequestTests.swift in Sources */,
 				F7F93A4A28D9A79000C0C32B /* MindfulQuoteViewModelTests.swift in Sources */,
 				F755B21128DA427D00D3C8CF /* MockService.swift in Sources */,
 			);

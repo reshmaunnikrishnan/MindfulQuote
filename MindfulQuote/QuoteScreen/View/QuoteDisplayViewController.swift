@@ -62,6 +62,7 @@ final class QuoteDisplayViewController: UIViewController {
     }
 
     private func setupUI() {
+        self.view.backgroundColor = UIColor(red: 0.83, green: 0.73, blue: 0.73, alpha: 1.0)
         self.languageButton.titleLabel?.text = language.rawValue
         self.quoteText.numberOfLines = 0
         self.languageButton.backgroundColor = .lightGray
